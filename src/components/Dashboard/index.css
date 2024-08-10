@@ -1,0 +1,86 @@
+/* Container for the dashboard */
+.dashboard-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header for the dashboard */
+.dashboard-container h2 {
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 30px;
+}
+
+/* Profile section styling */
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Profile picture styling */
+.profile-picture {
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007BFF;
+}
+
+/* User info section styling */
+.user-info {
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+}
+
+.user-info p {
+    font-size: 1.1rem;
+    margin: 8px 0;
+}
+
+.user-info strong {
+    color: #555;
+}
+
+/* Additional content styling */
+.additional-content {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Responsive design for mobile screens */
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding: 15px;
+    }
+
+    .dashboard-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .user-info p {
+        font-size: 1rem;
+    }
+
+    .additional-content {
+        font-size: 0.9rem;
+    }
+}
